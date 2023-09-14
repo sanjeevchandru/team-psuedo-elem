@@ -1,0 +1,110 @@
+*{	
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Raleway', sans-serif;
+	}
+	/* .container{ */
+		/* width:85%; */
+		/* margin:auto; */
+	/* } */
+	/* .team-row{ */
+		/* display:flex; */
+	/* } */
+	/* .team-col{ */
+		/* width:25%; */
+		/* padding:10px; */
+	/* } */
+	.team-card{
+		position:relative;
+		box-shadow:0 0 10px #ccc;
+		border-radius:10px;
+	}
+	.team-card h3{
+		padding:10px 20px;
+	}
+	.team-card p{
+		color:#999;
+		padding:0 20px;
+		padding-bottom:20px;
+		font-size:14px;
+	}
+	.team-img img{
+		width:100%;
+	}
+	.fa-twitter,.fa-facebook-official,.fa-instagram,.fa-linkedin-square{
+		visibility:hidden;
+	}
+	.team-card:hover .fa-twitter{
+		visibility:visible;
+		position:absolute;
+		bottom:50%;
+		left:20%;
+		
+		transition:all 0.5s 0.3s linear;
+		transform:translateY(20px);
+	}
+	
+	.team-card:hover .fa-facebook-official{
+		visibility:visible;
+		position:absolute;
+		bottom:50%;
+		left:36%;
+		
+		transition:all 0.5s 0.3s linear;
+		transform:translateY(20px);
+	}
+	.team-card:hover .fa-instagram{
+		visibility:visible;
+		position:absolute;
+		bottom:50%;
+		right:48%;
+		
+		transition:all 0.5s 0.3s linear;
+		transform:translateY(20px);
+	}
+	.team-card:hover .fa-linkedin-square{
+		visibility:visible;
+		position:absolute;
+		bottom:50%;
+		right:32%;
+		
+		transition:all 0.5s 0.3s linear;
+		transform:translateY(20px);
+	}
+	.team-social .fa-twitter::before{
+		position:absolute;
+		padding:10px;
+		background-color:#ccc;
+		opacity:0.8;
+		color:#000;
+		border-radius:7px;
+	}
+		
+	.team-social .fa-facebook-official::before{
+		position:absolute;
+		padding:10px;
+		background-color:#ccc;
+		opacity:0.8;
+		color:#000;
+		border-radius:7px;
+	}
+		
+	.team-social .fa-instagram::before{
+		position:absolute;
+		padding:10px;
+		background-color:#ccc;
+		opacity:0.8;
+		color:#000;
+		border-radius:7px;
+	}
+	
+	.team-social .fa-linkedin-square::before{
+		position:absolute;
+		padding:10px;
+		background-color:#ccc;
+		opacity:0.8;
+		color:#000;
+		border-radius:7px;
+	}
+				
